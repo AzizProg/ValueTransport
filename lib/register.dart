@@ -27,7 +27,7 @@ class _Register extends State<Register> {
         email.text != "" ||
         mot.text != "") {
       try {
-        String uri="https://transport-ligne.000webhostapp.com/registers.php";
+        String uri="https://transport.simplonien-da.net/register.php";
         final res = await http.post(
             Uri.parse(uri),
             body: {
